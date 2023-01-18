@@ -1,0 +1,16 @@
+h1 {
+    color: black;
+    font-size: 200px;
+
+}
+h1 span {
+    color:red;
+}
+
+li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+li ol {
+    font-size: 25pxpx;
+}
