@@ -13,6 +13,11 @@
     padding: 20px 0;
 }
 
+.centered_box_x512 {
+    width: 512px;
+    margin: 0 auto;
+}
+
 .box1x1 {
     width: 512px;
     height: 512px;
@@ -24,4 +29,13 @@
 .centeraudio {
     width: 100%;
     padding: 227px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover h4 {
+    color: #000;
 }
