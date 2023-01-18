@@ -1,0 +1,15 @@
+div {
+    margin: 5px; 
+}
+
+h1 {
+    color: blue;
+}
+#fifth p {
+    display: none;
+}
+
+#sixth img {
+    width: 300px;
+    height: 300px;
+}
