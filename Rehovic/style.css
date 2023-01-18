@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.songs_box {
+    width: 512px;
+    height: 512px;
+    background-color: #f1f3f4;
+}
