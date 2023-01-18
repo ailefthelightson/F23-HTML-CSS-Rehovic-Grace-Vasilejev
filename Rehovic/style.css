@@ -5,8 +5,23 @@
     font-family: sans-serif;
 }
 
-.songs_box {
+.center {
+    margin: 0 auto;
+}
+
+.tabletitle {
+    padding: 20px 0;
+}
+
+.box1x1 {
     width: 512px;
     height: 512px;
+    margin: 0 2px;
     background-color: #f1f3f4;
+    overflow: hidden;
+}
+
+.centeraudio {
+    width: 100%;
+    padding: 227px 0;
 }
