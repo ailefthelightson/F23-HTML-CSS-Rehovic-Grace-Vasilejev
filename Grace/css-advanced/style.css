@@ -14,3 +14,15 @@ li {
 li ol {
     font-size: 25pxpx;
 }
+.column {
+    float: left;
+    width: 33%;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+     
+    
+}
+#last p{
+    text-align:center;
+    font-size:20px;
+    
+}
