@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .centered_box_x512 {
+            width: 512px;
+            margin: 0 auto;
+        }
+
+        .grid_box_3x3 {
+            width: 33.333%;
+            height: 170px;
+            float: left;
+            background-color: #197BBD;
+            overflow: hidden;
+        }
+
+        .grid_box_design {
+            text-align: left;
+            padding: 12.5% 0;
+            margin: 0;
+            line-height: normal;
+            font-size: x-large;
+            color: white;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover h4 {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; border: 0; display: block; font-family: sans-serif;">
+    <div class="centered_box_x512">
+        <h1 style="text-align: center;">About me</h1>
+        <p style="text-align: justify;">
+            Hi, im Peter,
+            <br>i know some HTML
+            <br>as well as some CSS and Java
+            <br>but i know very little about JavaScript
+            <br>or the Frameworks commonly used.
+        </p>
+    </div>
+    <div class="centered_box_x512">
+        <h2>An Image i created with Stable Diffusion.</h2>
+        <a href="https://creator.nightcafe.studio/u/Loid_">
+            <img src="./content/ai_art.jpg" alt="an Image i created with Stable Diffusion.">
+        </a>
+        <div style="text-align: justify;">
+            <hr>
+            <h3 style="font-family: serif;">Description</h3>
+            <p>I was bored a while ago so i digged deep into the AI rabbit hole<br>
+                and i figured out how to create an interesting look insired by SquareEnix<br>
+                and their games like Final Fantasy XV and NieR: Automata</p>
+            <hr>
+        </div>
+    </div>
+    <div class="centered_box_x512">
+        <h2>Commissions are Open</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Firstname
+                    </td>
+                    <td>
+                        <input type="text" name="firstname" placeholder="ex. John">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Lastname
+                    </td>
+                    <td>
+                        <input type="text" name="lastname" placeholder="ex. Doe">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <label for="type_artwork">Type of Artwork</label>
+            <select name="type_artwork" id="type_artwork">
+                <option value="portrait">portrait</option>
+                <option value="landscape">landscape</option>
+                <option value="concept">concept</option>
+            </select>
+            <br>
+            <br>
+            Gender
+            <br>
+            <div style="float: left">
+                <input type="radio" name="gender" checked> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+            </div>
+            <div style="float: right;">
+                <input type="text" name="gender" placeholder="(specify optional)">
+            </div>
+            <br>
+            <br>
+            Hobbies
+            <br>
+            <ul style="list-style: none; margin: 0; padding: 0; border: 0; display: block;">
+                <li><input type="checkbox" name="programming"> programming
+                </li>
+                <li><input type="checkbox" name="drawing_painting"> drawing / painting
+                </li>
+                <li><input type="checkbox" name="sports"> sports
+                </li>
+                <li><input type="checkbox" name="movies"> movies</li>
+            </ul>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        Phone
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" placeholder="+01 234 567 89">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mail
+                    </td>
+                    <td>
+                        <input type="email" name="mail" placeholder="john.doe@example.com">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <label for="message">Write a message</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="67"></textarea>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+    <br>
+    <div class="centered_box_x512">
+        <h3>Schedule an Appointment <i>(optional)</i></h3>
+        <div class="grid_box_3x3">
+            <a href="#">
+                <h4 class="grid_box_design">Friday<br>Morning</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3" style="background-color: #125E8A;">
+            <a href="#">
+                <h4 class="grid_box_design">Saturday<br>Morning</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3">
+            <a href="#">
+                <h4 class="grid_box_design">Sunday<br>Morning</h4>
+            </a>
+        </div>
+
+        <div class="grid_box_3x3" style="background-color: #125E8A;">
+            <a href="#">
+                <h4 class="grid_box_design">Friday<br>Noon</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3">
+            <a href="#">
+                <h4 class="grid_box_design">Saturday<br>Noon</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3" style="background-color: #125E8A;">
+            <a href="#">
+                <h4 class="grid_box_design">Sunday<br>Noon</h4>
+            </a>
+        </div>
+
+        <div class="grid_box_3x3">
+            <a href="#">
+                <h4 class="grid_box_design">Friday<br>Afternoon</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3" style="background-color: #125E8A;">
+            <a href="#">
+                <h4 class="grid_box_design">Saturday<br>Afternoon</h4>
+            </a>
+        </div>
+        <div class="grid_box_3x3">
+            <a href="#">
+                <h4 class="grid_box_design">Sunday<br>Afternoon</h4>
+            </a>
+        </div>
+    </div>
+    <br style="clear: both;">
+    <div class="centered_box_x512">
+        <div style="width: 100%; background-color: #204B57;">
+            <a href="./index.html">
+                <h4 style="text-align: center; font-size: xx-large; padding: 256px 0; line-height: 0;">Bring me back
+                    Home!</h4>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
